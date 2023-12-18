@@ -15,7 +15,7 @@ The objective of this project is to migrate the [Replica Web](https://github.com
 
 ## Process 
 ### Tecnologies
-For this project I used the technologies requested:
+For this project I used:
 - html
 - css 
 - js
