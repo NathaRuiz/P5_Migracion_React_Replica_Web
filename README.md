@@ -19,7 +19,7 @@ For this project I used the technologies requested:
 - html
 - css 
 - js
-- 
+- Tailwind
 
 ### Page Display - Final Result
 [URL-Demo]()
