@@ -7,17 +7,14 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 0;
-    box-shadow: 0 .4rem 1rem 0 var(--secondary-background);
+    box-shadow: 0 .4rem 1rem 0 #E5EDF5;
     z-index: 1;
 }
 .drop-down-menu-content a{
     display: block;
-    color: var(--primary-letter-color);
     text-align: left;
-    font-family: var(--font-family);
     font-size: 14px;
-    font-weight: var(--bold-font);
-    border-bottom: .3px solid var(--secondary-background);
+    border-bottom: .3px solid #E5EDF5;
     padding: 15px;
 }
 .drop-down-menu:hover .drop-down-menu-content{

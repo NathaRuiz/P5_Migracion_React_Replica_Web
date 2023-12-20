@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/header/Header'
+// import Router from './configurations/Router'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <Header/>
+     {/* <Router/> */}
     </>
   )
 }
