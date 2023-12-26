@@ -1,0 +1,12 @@
+.button-border {
+    background-color: inherit;
+    border-radius: 50px;
+    border: 2px solid #FF556E;
+    padding: 5px 16px;
+}
+.button-border > a{
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF556E;
+}

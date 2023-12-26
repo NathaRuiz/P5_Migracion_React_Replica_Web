@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import './ButtonColor.css'
 
-const ButtonColor = () => {
+const ButtonColor = ({link, icon}) => {
   return (
     <>
-        <button className="button-border hover:text-tertiary-letter-color font-bold text-sm"><a target="_blank" href="https://factoriaf5.org/">DOWNLOAD</a></button>
+      <button className="button-color">
+        <a href={link} target="_blank">
+          <i className={icon} ></i>
+          DOWNLOAD
+          <span></span>
+        </a>
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default ButtonColor
+export default ButtonColor;

@@ -7,13 +7,13 @@ const Footer = () => {
       <div className="m-auto">
         <div className=" flex flex-wrap leading-7">
 
-          <div className="w-1/4	">
+          <div className="footer-col ">
             <h3 className=" text-[15px]	font-bold	tracking-tight">Contact Info</h3>
             <ul className="list-none">
               <li>
                 <a href="#" className="text-[13px] font-normal pt-2.5 transition-all duration-200 ease hover:text-tertiary-letter-color hover:font-bold hover:pl-1">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    22 Innovation Street, CA, US
+                  22 Innovation Street, CA, US
                 </a>
               </li>
               <li>
@@ -31,7 +31,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="w-1/4	">
+          <div className="footer-col ">
           <h3 className="text-[15px] font-bold	tracking-tight">Value Links</h3>
                 <ul className="list-none">
                     <li>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </ul>
           </div>
 
-          <div className="w-1/4	">
+          <div className="footer-col ">
           <h3 className="text-[15px]	font-bold	tracking-tight">Other Apps</h3>
                 <ul className="list-none">
                     <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </ul>
           </div>
 
-          <div className="w-1/4	">
+          <div className="footer-col ">
           <div className="social-links">
                     <a href="https://www.facebook.com/" target="_blank" className="text-3xl p-1 hover:text-tertiary-letter-color">
                       <i className="fab fa-facebook" aria-hidden="true"></i>

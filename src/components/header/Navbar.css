@@ -8,7 +8,6 @@
     padding-right: 5px;
     padding-bottom: 0;
     box-shadow: 0 .4rem 1rem 0 #E5EDF5;
-    z-index: 1;
 }
 .drop-down-menu-content a{
     display: block;

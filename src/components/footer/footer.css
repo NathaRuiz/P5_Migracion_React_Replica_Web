@@ -2,3 +2,19 @@ footer{
     padding: 5% 10% 2% 5%; 
     border-top: 0.2px solid #C1CED0;
 }
+.footer-col {
+    width: 25%;
+    padding: 0; 
+}
+
+@media (max-width:768px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:550px){
+    .footer-col {
+        width: 100%;
+    }
+}
