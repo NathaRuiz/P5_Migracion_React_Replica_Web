@@ -28,6 +28,12 @@ export default {
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
       },
+      screens: {
+        'xs': '475px',
+        'sm': '576px',
+        'md': '960px',
+        'lg': '1440px',
+      },
     },
   },
   plugins: [],

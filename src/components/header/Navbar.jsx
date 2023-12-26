@@ -7,9 +7,9 @@ import ButtonBorder from "../buttons/ButtonBorder";
 
 const Navbar = () => {
   return (
-    <nav className="font-sans flex justify-between">
+    <nav className="font-sans md:flex justify-between w-full">
         <Logo></Logo>
-        <ul className="flex items-end justify-around w-2/5">
+        <ul className="xs:w-full md:flex items-end justify-around w-full sm:w-3/4 md:w-2/5 gap-5">
             <li className="hover:text-tertiary-letter-color font-bold text-sm">
                 <Link to="/description">DESCRIPTION</Link>
             </li>
@@ -21,7 +21,7 @@ const Navbar = () => {
             </li>
             <li>
                 <div className="drop-down-menu ">
-                    <button className="drop-down-button hover:text-tertiary-letter-color font-bold text-sm">
+                    <button className=" flex items-center gap-1 drop-down-button hover:text-tertiary-letter-color font-bold text-sm">
                     EXTRA
                     <i className="fa fa-caret-down"></i>
                     </button>
