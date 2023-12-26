@@ -1,13 +1,13 @@
 import React from "react";
 import './ButtonColor.css'
 
-const ButtonColor = ({link, icon}) => {
+const ButtonColor = ({link, icon, title}) => {
   return (
     <>
       <button className="button-color">
         <a href={link} target="_blank">
           <i className={icon} ></i>
-          DOWNLOAD
+          {title}
           <span></span>
         </a>
       </button>

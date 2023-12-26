@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
           </li>
           <li className="z-10">
-            <ButtonBorder />
+            <ButtonBorder link={"https://factoriaf5.org/"} title={"DOWNLOAD"} color={"FF556E"}/>
           </li>
         </ul>
       </nav>

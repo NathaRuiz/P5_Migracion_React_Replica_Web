@@ -1,10 +1,15 @@
 import React from 'react'
 import './ButtonBorder.css'
 
-const ButtonBorder = () => {
+const ButtonBorder = ({link, title,color}) => {
+  const colorStyle = {border: `2px solid #${color}`, color: `#${color}` }
   return (
     <>
-        <button className="button-border z-20"><a target="_blank" href="https://factoriaf5.org/">DOWNLOAD</a></button>
+        <button style={colorStyle} className="button-border z-20">
+          <a target="_blank" href={link}>
+            {title}
+          </a>
+        </button>
     </>
   )
 }
