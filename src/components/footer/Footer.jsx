@@ -12,19 +12,19 @@ const Footer = () => {
             <ul className="list-none">
               <li>
                 <a href="#" className="text-[13px] font-normal pt-2.5 transition-all duration-200 ease hover:text-tertiary-letter-color hover:font-bold hover:pl-1">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <i className="fa fa-map-marker" aria-hidden="true"></i>
                   22 Innovation Street, CA, US
                 </a>
               </li>
               <li>
               <a href="#" className="text-[13px] font-normal pt-2.5 transition-all duration-200 ease hover:text-tertiary-letter-color hover:font-bold hover:pl-1">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <i className="fa fa-envelope" aria-hidden="true"></i>
                   office@syncmobile.com
                 </a>
               </li>
               <li>
               <a href="#" className="text-[13px] font-normal pt-2.5 transition-all duration-200 ease hover:text-tertiary-letter-color hover:font-bold hover:pl-1">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
                   +44 376 945 23
                 </a>
               </li>
