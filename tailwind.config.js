@@ -17,7 +17,7 @@ export default {
           'users-icon':'#A073E9',
           'users-icon-background':'#E8E3F9',
           'code-icon':'#19CA94',
-         ' code-icon-background':'#D5F2ED',
+          'code-icon-background':'#D5F2ED',
           'cog-icon':'#FD6277',
           'cog-icon-background':'#F7E1E7',
           'comments-icon':'#FFAA11',
