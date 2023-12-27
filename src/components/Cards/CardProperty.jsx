@@ -1,4 +1,5 @@
 import React from "react";
+import '../../views/Home.css'
 
 const CardProperty = ({title, name}) => {
 
