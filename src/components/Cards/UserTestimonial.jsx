@@ -3,7 +3,7 @@ import React from "react";
 const UserTestimonial = ({opinion, name, profession}) => {
   return (
     <>
-      <div className="user text-center flex flex-col items-center justify-evenly w-[32%]">
+      <div className="user text-center flex flex-col items-center justify-evenly md:w-[32%]">
         <div className="starts text-comments-icon">
           <i className="fa fa-star"></i>
           <i className="fa fa-star"></i>
