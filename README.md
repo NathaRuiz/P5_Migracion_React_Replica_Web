@@ -16,10 +16,7 @@ The objective of this project is to migrate the [Replica Web](https://github.com
 ## Process 
 ### Tecnologies
 For this project I used:
-- html
-- css 
-- js
-- Tailwind
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,react,tailwind,)](https://skillicons.dev"/>
 
 ### Page Display - Final Result
 [URL-Demo]()
