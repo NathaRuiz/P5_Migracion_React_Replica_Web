@@ -5,11 +5,11 @@ const UserTestimonial = ({opinion, name, profession}) => {
     <>
       <div className="user text-center flex flex-col items-center justify-evenly w-[32%]">
         <div className="starts text-comments-icon">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
+          <i className="fa fa-star"></i>
+          <i className="fa fa-star"></i>
+          <i className="fa fa-star"></i>
+          <i className="fa fa-star"></i>
+          <i className="fa fa-star"></i>
         </div>
         <div className="border w-10 h-[1.7px] mt-[5%] mb-[5%] bg-line-color"></div>
         <p className="opinion text-secondary-letter-color leading-[1.4em] italic">{opinion}</p>

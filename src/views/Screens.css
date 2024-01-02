@@ -1,0 +1,43 @@
+.publicity{
+    background: url("/src/assets/images/decorative-white-circle.svg") no-repeat -25% 50%,
+    url("/src/assets/images/decorative-white-circle.svg") no-repeat  125% 10%;
+    background-size: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .section-title > h2{
+        font-size: 30px;
+    }
+    .users{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .user{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top:5%;
+        margin-bottom: 5%;
+        
+    }
+    .counter{
+        margin:5px
+
+    }
+
+    .counter > i{
+        font-size: 1.8rem;
+    }
+    .counter > .number-counter {
+        font-size: 2rem;
+    }
+
+}

@@ -1,0 +1,26 @@
+.users{
+    color: #A073E9;
+}
+
+.code{
+    color: #19CA94;
+}
+.cog{
+    color: #FD6277;
+}
+.comments{
+    color: #FFAA11;
+}
+.rocket{
+    color: #46B0E5;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s normal;
+}
+.counter:hover{
+    box-shadow: 10px 15px 8px #C1CED0 ;
+}

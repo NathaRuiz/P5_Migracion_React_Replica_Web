@@ -58,7 +58,7 @@
     }
     .nav-items li:last-child{
         margin: auto;
-        margin-top: 300px;
+        margin-top: 200px;
     }
     .visible{
         opacity: 1;
