@@ -28,8 +28,14 @@ For this project I used:
 1. [Clone](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository) the repository.
 
 2. Open the proyect in Visual Studio Code ( is a source code editor developed by Microsoft for Windows, Linux, macOS and Web).
+   
+3. Make sure you have Node.js and npm installed on your machine. Then, run the following command to install the project dependencies: `npm install` 
+- This will install all the dependencies defined in the package.json file.
 
-3. Enjoy it.
+4. Start the React application: If the repository is a React project, you can start the application with the following command: `npm start` or `npm run dev`
+- This will start the React development server, and you will be able to view the application in your browser by visiting http://localhost:3000 (or the URL given in the terminal).
+
+5. Enjoy it.
 
 
 ## Author 
