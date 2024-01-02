@@ -4,8 +4,10 @@ import GreenDiamond from '../assets/images/decorative-green-diamond.svg'
 import YellowCircle from '../assets/images/decorative-yellow-circle.svg'
 import ButtonColor from '../components/buttons/ButtonColor'
 import CardProperty from '../components/Cards/CardProperty'
+import phoneImg1 from  '../assets/images/header-iphone.png'
 
 const Home = () => {
+
   return (
     <main className='bg-primary-background w-full'>
       <article className='home-page'>
@@ -34,7 +36,7 @@ const Home = () => {
         </section>
 
         <section className='img-info'>
-          <img className='iphone' src="../../src/assets/images/header-iphone.png" alt="iphone whit the app"/>
+          <img className='iphone' src={phoneImg1} alt="iphone whit the app"/>
         </section>
 
         <section className='app-properties'>
