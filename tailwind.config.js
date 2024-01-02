@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -33,6 +33,16 @@ export default {
         'sm': '576px',
         'md': '960px',
         'lg': '1440px',
+      },
+      keyframes: {
+        zoom: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.18)' },
+          '100%': { transform: 'scale(1)' },
+        },
+      },
+      animation: {
+        zoom: 'zoom 3s infinite',
       },
     },
   },

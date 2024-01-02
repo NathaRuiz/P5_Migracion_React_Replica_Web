@@ -1,14 +1,15 @@
 import React from 'react'
 import './ButtonBorder.css'
 
-const ButtonBorder = ({link, title,color}) => {
+const ButtonBorder = ({url, title,color}) => {
+  const openLink = (url) => {
+    window.open(url, '_blank');
+  };
   const colorStyle = {border: `2px solid #${color}`, color: `#${color}` }
   return (
     <>
-        <button style={colorStyle} className="button-border z-20">
-          <a target="_blank" href={link}>
+        <button style={colorStyle} className="button-border " onClick={() => openLink(url)}>
             {title}
-          </a>
         </button>
     </>
   )

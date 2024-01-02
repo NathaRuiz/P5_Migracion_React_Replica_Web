@@ -1,15 +1,20 @@
 import React from "react";
 import './ButtonColor.css'
 
-const ButtonColor = ({link, icon, title}) => {
+const ButtonColor = ({url, hasIcon=true , icon="none", title}) => {
+  const openLink = (url) => {
+    window.open(url, '_blank');
+  };
   return (
     <>
-      <button className="button-color">
-        <a href={link} target="_blank">
-          <i className={icon} ></i>
+      <button className="button-color" onClick={() => openLink(url)}>
+         
+        { hasIcon && (
+            <i className={icon} ></i>      
+        )}
+          
           {title}
-          <span></span>
-        </a>
+        
       </button>
     </>
   );

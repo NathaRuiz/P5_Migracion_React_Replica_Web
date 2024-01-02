@@ -1,0 +1,7 @@
+.schedule-img > img{
+    width: 100%;
+    transition: all 2s normal;
+}
+.schedule-img > img:hover{
+    transform: rotateY(360deg);
+ }

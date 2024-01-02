@@ -28,8 +28,8 @@ const Home = () => {
             organized
           </p>
           <div className='flex justify-center gap-1'>
-            <ButtonColor link={"https://femcoders.factoriaf5.org/"} icon={"fab fa-apple"} title={"DOWNLOAD"}/>
-            <ButtonColor link={"https://www.somosf5.org/"} icon={"fab fa-google-play"} title={"DOWNLOAD"}/>
+            <ButtonColor url={"https://femcoders.factoriaf5.org/"} icon={"fab fa-apple"} title={"DOWNLOAD"}/>
+            <ButtonColor url={"https://www.somosf5.org/"} icon={"fab fa-google-play"} title={"DOWNLOAD"}/>
           </div>
         </section>
 
@@ -38,6 +38,7 @@ const Home = () => {
         </section>
 
         <section className='app-properties'>
+
            <CardProperty title={"Identify Goals"} name={"users"}/>
            <CardProperty title={"Situation Analysis"} name={"code"}/>
            <CardProperty title={"Tasks Settings"} name={"cog"}/>

@@ -1,0 +1,50 @@
+.users-card-style {
+    background-color: #E8E3F9;
+    color: #A073E9
+}
+.code-card-style {
+    background-color: #D5F2ED;
+    color: #19CA94
+}
+.cog-card-style {
+    background-color: #F7E1E7;
+    color: #FD6277;
+}
+.comments-card-style {
+    background-color: #F7EFD9;
+    color: #FFAA11;
+}
+.rocket-card-style {
+    background-color: #DDF0F9;
+    color: #46B0E5;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.property > p{
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:15% ;
+}
+
+.property-container{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 2s normal;
+}
+.property-container:hover{
+    transform: rotateY(180deg);
+}
+
+.property-container > i{
+    font-size:2.8rem;
+}
