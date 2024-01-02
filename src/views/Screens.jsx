@@ -3,6 +3,12 @@ import "./Screens.css"
 import UserTestimonial from "../components/Cards/UserTestimonial";
 import Counter from "../components/Cards/Counter";
 import ButtonColor from "../components/buttons/ButtonColor";
+import CustomerLogo1 from "../assets/images/customer-logo-1.png";
+import CustomerLogo2 from "../assets/images/customer-logo-2.png";
+import CustomerLogo3 from "../assets/images/customer-logo-3.png";
+import CustomerLogo4 from "../assets/images/customer-logo-4.png";
+import CustomerLogo5 from "../assets/images/customer-logo-5.png";
+import IphoneImg2 from "../assets/images/download-iphone.png";
 
 const Screens = () => {
   return (
@@ -43,27 +49,27 @@ const Screens = () => {
         <section className="customers-logo bg-white flex flex-col items-center w-[90%]">
           <div className="customers-images flex flex-wrap justify-around items-center w-4/5">
             <img
-              src="/src/assets/images/customer-logo-1.png"
+              src={CustomerLogo1}
               alt="logo of primester"
               className="mt-[3%] mb-[3%]"
             />
             <img
-              src="/src/assets/images/customer-logo-2.png"
+              src={CustomerLogo2}
               alt="logo of green app"
               className="mt-[3%] mb-[3%]"
             />
             <img
-              src="/src/assets/images/customer-logo-3.png"
+              src={CustomerLogo3}
               alt="logo of voltmeter"
               className="mt-[3%] mb-[3%]"
             />
             <img
-              src="/src/assets/images/customer-logo-4.png"
+              src={CustomerLogo4}
               alt="logo of keyrunner"
               className="mt-[3%] mb-[3%]"
             />
             <img
-              src="/src/assets/images/customer-logo-5.png"
+              src={CustomerLogo5}
               alt="logo of amplifier"
               className="mt-[3%] mb-[3%]"
             />
@@ -110,7 +116,7 @@ const Screens = () => {
       <article className="publicity">
               <div className="publicity-box flex flex-col w-4/5 items-center pt-[7%] pb-[7%]">
                 <section className="img-publicity w-[90%]">
-                  <img className="w-full" src="./src/assets/images/download-iphone.png" alt="phone" />
+                  <img className="w-full" src={IphoneImg2} alt="phone" />
                 </section>
                 <section className="info-publicity flex flex-col items-center text-center">
                   <p>Do you feel like you're wasting time with small stuff instead of working towards your goals? Start using Sync to organize your time and get a grip on your personal development</p>

@@ -3,6 +3,8 @@ import "./Description.css"
 import ButtonColor from "../components/buttons/ButtonColor";
 import ButtonBorder from "../components/buttons/ButtonBorder";
 import SquareButton from "../components/buttons/SquareButton";
+import Description1 from "../assets/images/description-1-app.png";
+import Description2 from "../assets/images/description-2-app.png"
 
 const Description = () => {
   return (
@@ -11,7 +13,7 @@ const Description = () => {
         <div className="organize-img md:w-2/4 overflow-hidden	">
           <img
             className="w-full hover:animate-zoom"
-            src="./src/assets/images/description-1-app.png"
+            src={Description1}
             alt="view of photo gallery"
           />
         </div>
@@ -77,7 +79,7 @@ const Description = () => {
         <div className="schedule-img md:w-2/4 overflow-hidden	">
         <img
             className="w-full"            
-            src="./src/assets/images/description-2-app.png"
+            src={Description2}
             alt="view of calendar"
           />        </div>
       </section>
