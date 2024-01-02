@@ -5,3 +5,38 @@
 .schedule-img > img:hover{
     transform: rotateY(360deg);
  }
+
+ @media (max-width:768px) {
+    .organize{
+        flex-direction: column;
+        padding-bottom: 15%;
+    }
+    .organize-img{
+        width: 100%;
+     }
+    .organize-img > img{
+        width: 100%;
+     }
+    .organize-info{
+        width: 100%;
+        padding: 5%;
+    }
+    .organize-info > h2 {
+        font-size: 30px;
+    }
+
+    .schedule{
+        flex-direction: column;
+        padding-bottom: 15%;
+    }
+    .schedule-img{
+        width: 100%;
+     }
+    .schedule-img > img{
+        width: 100%;
+     }
+    .schedule-info{
+        width: 100%;
+        padding: 5%;
+    }
+}

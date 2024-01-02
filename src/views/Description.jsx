@@ -7,15 +7,15 @@ import SquareButton from "../components/buttons/SquareButton";
 const Description = () => {
   return (
     <>
-      <section className="bg-primary-background flex pt-[71px] pb-[51px] pl-[51px] pr-[51px]">
-        <div className="w-2/4 overflow-hidden	">
+      <section className="w-full organize bg-primary-background flex pt-[7%] pb-[5%] pl-[5%] pr-[5%]">
+        <div className="organize-img md:w-2/4 overflow-hidden	">
           <img
             className="w-full hover:animate-zoom"
             src="./src/assets/images/description-1-app.png"
             alt="view of photo gallery"
           />
         </div>
-        <section className="w-2/4 ml-[18px]">
+        <section className="organize-info md:w-2/4 ml-[18px]">
           <h2 className="font-bold text-[40px] text-primary-letter-color">
             Organize Your Time And Star Getting Results
           </h2>
@@ -24,7 +24,7 @@ const Description = () => {
             social connections to help you stop procrastinating and start
             getting things done. Give it a try and see the changes right away
           </p>
-          <div className="text-secondary-letter-color mt-[13.5px] ml-[13.5px] mb-[13.5px] leading-[2.5em]">
+          <div className="organize-list text-secondary-letter-color mt-[13.5px] ml-[13.5px] mb-[13.5px] leading-[2.5em]">
             <ul className=" list-[square]">
               <li>Analyse and evaluate your current status and productivity</li>
               <li>Begin monitoring you day to day routine with Sync app</li>
@@ -40,14 +40,14 @@ const Description = () => {
           />
         </section>
       </section>
-      <section className="bg-secondary-background flex pt-[71px] pb-[51px] pl-[51px] pr-[51px]">
-        <section className="w-2/4 mr-[18px]">
-          <div>
+      <section className="schedule bg-secondary-background flex pt-[71px] pb-[51px] pl-[51px] pr-[51px]">
+        <section className="schedule-info md:w-2/4 mr-[18px]">
+          <div className="schedule-buttons flex flex-wrap justify-start">
             <SquareButton icon={"fa fa-clock"} title={"Schedule"} bg_color="A073E9" color="F7FAFD"/>
             <SquareButton icon={"fa fa-list-ul"} title={"Tracking"}/>
             <SquareButton icon={"fa fa-calendar-alt"} title={"Organize"}/>
           </div>
-          <div className="text-secondary-letter-color mt-[13.5px] leading-[1.8em]">
+          <div className="schedule-p text-secondary-letter-color mt-[13.5px] leading-[1.8em]">
             <p className=" leading-[1.8em] mt-[13.5px]">
               <b>Schedule tasks</b> to keep track of their completion. Sync
               provides multiple scheduling options including alarms and
@@ -74,7 +74,7 @@ const Description = () => {
           <ButtonBorder url={"https://www.somosf5.org/"} title={"PRIVACY"} color={"000000"}/>
           </div>
         </section>
-        <div class="schedule-img w-2/4 overflow-hidden	">
+        <div className="schedule-img md:w-2/4 overflow-hidden	">
         <img
             className="w-full"            
             src="./src/assets/images/description-2-app.png"

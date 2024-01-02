@@ -7,3 +7,9 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+@media (max-width:768px) {
+    .square-button{
+        width: 40%;
+    }
+}
