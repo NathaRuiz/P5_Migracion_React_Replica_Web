@@ -34,7 +34,7 @@ const Home = () => {
         </section>
 
         <section className='img-info'>
-          <img className='iphone' src="../assets/images/header-iphone.png" alt="iphone whit the app"/>
+          <img className='iphone' src="../../src/assets/images/header-iphone.png" alt="iphone whit the app"/>
         </section>
 
         <section className='app-properties'>
