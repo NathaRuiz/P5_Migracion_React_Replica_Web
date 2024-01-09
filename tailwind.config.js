@@ -24,6 +24,7 @@ export default {
           'comments-icon-background':'#F7EFD9',
           'rocket-icon':'#46B0E5',
           'rocket-icon-background':'#DDF0F9',
+          'color-test':'#FFFF',
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
